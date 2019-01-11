@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Club</title>
+    <meta charset="UTF-8" />
+    <link href="css/StyleCss.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/lifestyle.js"></script>
+  </head>
+  <body>
+  <div class="header_color">
+    <div class="header">
+      <div class="logo" id="logo">
+        <a href="http://localhost/fitnessclub/index.html">
+              <img src="images/logo.jpg" width="400" height="150" border="0" alt="fitnessclub" />
+        </a>
+      </div>
+      <br />
+      <div id="menu" class='menu'>
+        <ul>
+          <li>
+            <a href="http://localhost/fitnessclub/index.html">Home</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/programsevents.html">Programs and Events</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/lifestyle.html" class="active">LifeStyle</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/family.html">Family</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/contact.html">Contact US</a>
+          </li>
+		  <li>
+			<a href="http://localhost/fitnessclub/php/review.php" class="active">reviews</a>
+		  </li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <a href="http://localhost/fitnessclub/index.html">
+    <img src="images/home.jpg" alt="home" width="50" height="50" />
+  </a> 
+  <a href="http://localhost/fitnessclub/lifeStyle.html">
+    <img src="images/back.jpg" alt="LifeStyle" width="50" height="50" />
+  </a>
+  <div class="header_text_resize2" align="center">
+    <h2>Hair Care</h2>
+    <img src="images/haircare.jpg" alt="LifeStyle" width="600" height="250" align="center" />
+  </div>
+  <div class="content_resize1">
+    <p class="text_Para">Beautiful hair start with different therapy.</p>
+    <br />
+    <details>
+      <summary>Read More</summary>
+      <br />
+      <p class="text_Para">We believe strong hair is beautiful hair, so all LifeSpa hair services include our signature Renewal
+      Therapy and comprehensive analysis to address your specific needs. Our specialized formula is combined with light massage to
+      help revive your hair and scalp. Our expert technicians love what they do – and that’s taking care of you.</p>
+    </details>
+  </div>
+  <div class="body">
+  	   <p class="text_Para1" align="center">
+		  <h4>Different treatments for the hair</h4>
+		  <label class="label1">Select the proper treatment
+		  <br /></label> 
+		  <select id="mySelect">
+			<option selected="selected">Deep_conditioning</option>
+			<option>Hair_spa</option>
+			<option>Smoothing</option>
+			<option>Style_finish</option>
+			<option>Clarifying_treatment</option>
+		  </select>
+		<input type="button" value="Click" id="btndisplay" />
+		<p id="displayresult"></p>
+	</p>
+  </div>
+  <form>
+  <input type="button" value="References" id="btnReferences" /> 
+  <script type="text/javascript">
+        document.getElementById("btnReferences").onclick = function () { reference() };
+        function reference() {
+            var href = "http://localhost/fitnessclub/References.html";
+            window.location = href;
+        }
+</script></form></body>
+</html>

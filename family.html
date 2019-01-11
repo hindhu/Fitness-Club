@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="generator"/>
+    <title>Club</title>
+    <meta charset="UTF-8" />
+    <link href="css/StyleCss.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header_color">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.jpg" width="400" height="150" border="0" alt="fitnessclub" />
+            </a>
+          </div>
+          <br />
+          <div class="clr"></div>
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="http://localhost/fitnessclub/index.html" class="active">Home</a>
+              </li>
+              <li>
+                <a href="http://localhost/fitnessclub/programsevents.html">Programs & Events</a>
+              </li>
+              <li>
+                <a href="http://localhost/fitnessclub/lifeStyle.html">LifeStyle</a>
+              </li>
+              <li>
+                <a href="http://localhost/fitnessclub/family.html">Family</a>
+              </li>
+              <li>
+                <a href="http://localhost/fitnessclub/shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="http://localhost/fitnessclub/contact.html">Contact US</a>
+              </li>
+			  <li>
+				<a href="http://localhost/fitnessclub/php/review.php" class="active">reviews</a>
+			  </li>
+            </ul>
+          </div>
+          <div class="clr"></div>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+      <div class="header_text_resize3" align="left">
+        <h2>Family.</h2>
+      </div>
+      <div class="body_resize">
+        <div align = "center">
+			<img src="images/daycare1.jpg" alt="Family" width="600" height="250" align="center" />
+			<h1>Kids-Academy</h1>
+			<p class="text_Para"> Help your little bundles of energy discover their true strengths. 
+			</br>When you bring your child to Mind & Body classes at Life Time Kids Academy, they’ll be dancing, kicking and focusing their way to total health.</p>
+		</div>
+		<div class="line"/>
+        <br />,
+		    <form method="post" action="http://localhost/fitnessclub/php/addreview.php" align="center">
+      <!--declare textbox for name and message -->
+      <p>
+		first name : 
+        <input type="text" name="first_name" />
+      </p>
+      <p>
+		last name :
+        <input type="text" name="last_name" />
+      </p>
+      <p>
+		Comment : 
+        <textarea name="comment" rows="5" cols="40"></textarea>
+      </p>
+      <!--The submit will post the data -->
+      <p>
+        <input type="submit" id="submit" value="submit" />
+      </p>
+    </form>
+		</div>
+      </div>
+    </div>
+  </body>
+</html>

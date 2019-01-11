@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Club</title>
+    <meta charset="UTF-8" />
+    <link href="css/StyleCss.css" rel="stylesheet" type="text/css" />
+		<script src="http://localhost/fitnessclub/javascript/programsevents.js">
+		
+		</script>
+  </head>
+  <body>
+    <div class="header_color">
+      <div class="header">
+        <div class="logo">
+          <a href="http://localhost/fitnessclub/index.html">
+              <img src="images/logo.jpg" width="400" height="150" border="0" alt="fitnessclub" />
+          </a>
+        </div>
+        <br />
+        <div class="menu">
+          <ul>
+           <li>
+            <a href="http://localhost/fitnessclub/index.html">Home</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/programsevents.html">Programs & Events</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/lifestyle.html" class="active">LifeStyle</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/family.html">Family</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/contact.html">Contact US</a>
+          </li>
+		  <li>
+			<a href="http://localhost/fitnessclub/php/review.php" class="active">reviews</a>
+		  </li>
+        </ul>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+    <div class="body" align="center">
+      <h1>Programs & Events</h1>
+      <div class="line"></div>
+      <img src="images/sports.jpg" alt="SPORTS" width="500" height="300" />
+      <p class="texttitle" align="center">
+        <strong>
+          <a id="SPORTS" href="http://localhost/fitnessclub/sport.html" align="center">Sports</a>
+        </strong>
+        <br />
+      </p>
+      <br />
+      <div class="line"></div>
+      <img src="images/signaturefitness.jpg" alt="SIGNATURE FITNESS" width="500" height="300" />
+      <p class="texttitle" align="center">
+        <strong>
+          <a id="SIGNATURE FITNESS" href="http://localhost/fitnessclub/training.html" align="center">Signature Fitness</a>
+        </strong>
+        <br />
+      </p>
+      <br />
+      <div class="line"></div>
+      <img src="images/yoga.jpg" alt="YOGA" width="500" height="300" />
+      <p class="texttitle" align="center">
+        <strong>
+          <a id="YOGA" href="http://localhost/fitnessclub/poweryoga.html" align="center">Yoga</a>
+        </strong>
+        <br />
+      </p>
+      <br />
+      <div class="line"></div>
+      <img src="images/groupFitness.jpg" alt="Pilates" width="500" height="300" />
+      <p class="texttitle" align="center">
+        <strong>
+          <a id="Group Fitness" href="http://localhost/fitnessclub/formats.html" align="center">Pilates</a>
+        </strong>
+        <br />
+      </p>
+      <br />
+      <div class="line"></div>
+	            <h1>Body Mass Index Calculator</h1>
+        <p>Enter your height:
+            <input type="text" id="height" />
+            <select type="multiple" id="heightunits">
+                <option value="metres" selected="selected">metres</option>
+                <option value="inches">inches</option>
+            </select>
+        </p>
+        <p>Enter your weight:
+            <input type="text" id="weight" />
+            <select type="multiple" id="weightunits">
+                <option value="kg" selected="selected">kilograms</option>
+                <option value="lb">pounds</option>
+            </select>
+        </p>
+        <input type="button" value="computeBMI" onclick="computeBMI()"/>
+        <h1>Your BMI is: <span id="output">?</span></h1>
+		 <h2>This means you are: value = <span id='comment'></span> </h2>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Club</title>
+    <meta charset="UTF-8" />
+    <link href="css/StyleCss.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/shop.js"></script>
+  </head>
+  <body>
+  <div class="header_color">
+    <div class="header">
+      <div class="logo">
+        <a href="http://localhost/fitnessclub/index.html">
+          <img src="images/logo.jpg" width="400" height="150" border="0" alt="fitnessclub" />
+        </a>
+      </div>
+      <br />
+      <div class="menu">
+        <ul>
+           <li>
+            <a href="http://localhost/fitnessclub/index.html">Home</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/programsevents.html">Programs & Events</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/lifestyle.html" class="active">LifeStyle</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/family.html">Family</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="http://localhost/fitnessclub/contact.html">Contact US</a>
+          </li>
+		  <li>
+			<a href="http://localhost/fitnessclub/php/review.php" class="active">reviews</a>
+		  </li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <div class="header_text_resize2" align="center">
+    <h2>Add to cart</h2>
+    <img src="images/shop.jpg" alt="shop" width="650" height="500" align="center" />
+  </div>
+  <div class="content_resize1">
+  <p class="text_Para">Shop Protein: PROMOTE MUSCLE GROWTH SUPPORT WORKOUT RECOVERY,SUPPORT FAT LOSS.</p>
+  <br />
+  <details>
+    <summary>Read More</summary>
+    <br />
+    <p class="text_Para">Soy : Soy protein is a low fat, low cholesterol and vegetarian protein source! Achieve your health and
+    fitness goals with soy protein!.
+    <br />Egg : Egg protein is a high quality lactose-free protein source! Support lean muscle for a toned physique with egg
+    protein! Whey : Whey protein is a fast-absorbing source of protein to support lean muscle! Great for anytime of the day -
+    especially post-workout! Plant: Check out great vegan protein options from plants like pea, hemp and brown rice! High quality
+    vegan protein sources!</p>
+  </details>
+	<div align="center">
+	  <h2>price check to choose protein</h2>
+	  <label class="label1">Minimum Price :</label> 
+	  <input type="text" name="inputtext" id="minvalue" width="200" placeholder="Enter price above 20$" />
+	  <br />
+	  <label class="label1">Maximum Price :</label> 
+	  <input type="text" name="inputtext" width="200" id="maxvalue" placeholder="Enter price in number" />
+	  <br />
+	  <input type="button" value="Check" id="btnprice" />
+	  <p id="displayprotein"></p></div>
+	</div>
+	  <form>
+	  <input type="button" value="References" id="btnReferences" /> 
+	  <script type="text/javascript">
+			 document.getElementById("btnReferences").onclick = function () { reference() };
+        function reference() {
+            var href = "http://localhost/fitnessclub/References.html";
+            window.location = href;
+			}
+	</script>
+	</form>
+	</body>
+</html>
